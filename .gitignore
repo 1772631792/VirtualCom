@@ -1,0 +1,39 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 构建产物
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+.codebuddy/
+
+# 日志、临时文件和备份
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 本地运行数据
+*.user
+*.suo
+
+# 注意：工程根目录的 Setup_com0com_v3.0.0.0_*.exe 是 build.py 打包所需的源文件，
+# 故意不忽略，否则新克隆的工程无法直接打包。
